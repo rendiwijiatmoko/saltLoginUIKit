@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		F7BFB14D2927A40B00519708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB14C2927A40B00519708 /* AppDelegate.swift */; };
 		F7BFB14F2927A40B00519708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB14E2927A40B00519708 /* SceneDelegate.swift */; };
-		F7BFB1512927A40B00519708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1502927A40B00519708 /* ViewController.swift */; };
-		F7BFB1542927A40B00519708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BFB1522927A40B00519708 /* Main.storyboard */; };
+		F7BFB1512927A40B00519708 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1502927A40B00519708 /* HomeViewController.swift */; };
 		F7BFB1562927A40C00519708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BFB1552927A40C00519708 /* Assets.xcassets */; };
 		F7BFB1592927A40C00519708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BFB1572927A40C00519708 /* LaunchScreen.storyboard */; };
+		F7BFB1642927A6FD00519708 /* CredentialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1632927A6FD00519708 /* CredentialModel.swift */; };
+		F7BFB1662927A74600519708 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1652927A74600519708 /* LoginViewController.swift */; };
+		F7BFB1682927ABEE00519708 /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1672927ABEE00519708 /* LoginHeaderView.swift */; };
+		F7BFB16A2927B74600519708 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1692927B74600519708 /* LoginViewModel.swift */; };
+		F7BFB16D2927B7B800519708 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB16C2927B7B800519708 /* Observable.swift */; };
+		F7BFB1722927B91400519708 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1712927B91400519708 /* APIService.swift */; };
+		F7BFB1742927BD0C00519708 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1732927BD0C00519708 /* ResponseModel.swift */; };
+		F7BFB1762927D59700519708 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFB1752927D59700519708 /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7BFB1492927A40B00519708 /* SaltLoginUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltLoginUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BFB14C2927A40B00519708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BFB14E2927A40B00519708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7BFB1502927A40B00519708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7BFB1532927A40B00519708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BFB1502927A40B00519708 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F7BFB1552927A40C00519708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BFB1582927A40C00519708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7BFB15A2927A40C00519708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BFB1632927A6FD00519708 /* CredentialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialModel.swift; sourceTree = "<group>"; };
+		F7BFB1652927A74600519708 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F7BFB1672927ABEE00519708 /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		F7BFB1692927B74600519708 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F7BFB16C2927B7B800519708 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		F7BFB1712927B91400519708 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F7BFB1732927BD0C00519708 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		F7BFB1752927D59700519708 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		F7BFB14B2927A40B00519708 /* SaltLoginUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F7BFB1622927A6C900519708 /* Models */,
+				F7BFB1602927A6BF00519708 /* Views */,
+				F7BFB1612927A6C400519708 /* ViewModels */,
+				F7BFB16E2927B8E700519708 /* Service */,
+				F7BFB16B2927B7A000519708 /* Helpers */,
 				F7BFB14C2927A40B00519708 /* AppDelegate.swift */,
 				F7BFB14E2927A40B00519708 /* SceneDelegate.swift */,
-				F7BFB1502927A40B00519708 /* ViewController.swift */,
-				F7BFB1522927A40B00519708 /* Main.storyboard */,
 				F7BFB1552927A40C00519708 /* Assets.xcassets */,
 				F7BFB1572927A40C00519708 /* LaunchScreen.storyboard */,
 				F7BFB15A2927A40C00519708 /* Info.plist */,
 			);
 			path = SaltLoginUIKit;
+			sourceTree = "<group>";
+		};
+		F7BFB1602927A6BF00519708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BFB1502927A40B00519708 /* HomeViewController.swift */,
+				F7BFB1652927A74600519708 /* LoginViewController.swift */,
+				F7BFB1672927ABEE00519708 /* LoginHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7BFB1612927A6C400519708 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7BFB1692927B74600519708 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7BFB1622927A6C900519708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7BFB1632927A6FD00519708 /* CredentialModel.swift */,
+				F7BFB1732927BD0C00519708 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7BFB16B2927B7A000519708 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7BFB16C2927B7B800519708 /* Observable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F7BFB16E2927B8E700519708 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F7BFB1712927B91400519708 /* APIService.swift */,
+				F7BFB1752927D59700519708 /* APIError.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +188,6 @@
 			files = (
 				F7BFB1592927A40C00519708 /* LaunchScreen.storyboard in Resources */,
 				F7BFB1562927A40C00519708 /* Assets.xcassets in Resources */,
-				F7BFB1542927A40B00519708 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BFB1512927A40B00519708 /* ViewController.swift in Sources */,
+				F7BFB16D2927B7B800519708 /* Observable.swift in Sources */,
+				F7BFB1642927A6FD00519708 /* CredentialModel.swift in Sources */,
+				F7BFB1682927ABEE00519708 /* LoginHeaderView.swift in Sources */,
+				F7BFB1512927A40B00519708 /* HomeViewController.swift in Sources */,
 				F7BFB14D2927A40B00519708 /* AppDelegate.swift in Sources */,
+				F7BFB1662927A74600519708 /* LoginViewController.swift in Sources */,
+				F7BFB1722927B91400519708 /* APIService.swift in Sources */,
 				F7BFB14F2927A40B00519708 /* SceneDelegate.swift in Sources */,
+				F7BFB1742927BD0C00519708 /* ResponseModel.swift in Sources */,
+				F7BFB16A2927B74600519708 /* LoginViewModel.swift in Sources */,
+				F7BFB1762927D59700519708 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7BFB1522927A40B00519708 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7BFB1532927A40B00519708 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7BFB1572927A40C00519708 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +352,6 @@
 				INFOPLIST_FILE = SaltLoginUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +379,6 @@
 				INFOPLIST_FILE = SaltLoginUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
